@@ -1,0 +1,37 @@
+.mainTitle{
+    background-color: firebrick;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+.navBar{
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-evenly;
+}
+
+.navBar_item{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color: firebrick;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navBar_item:hover{
+    transform: scale(1.5);
+    background-color: green;
+    transition: transform .5s;
+}
